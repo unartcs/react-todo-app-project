@@ -9,7 +9,7 @@ function TodoForm(props) {
     const submitTaskHandler = (e) => {
         e.preventDefault()
         setTaskList([
-            ...taskList, { text: inputText, completed: false, id: uniqid() }
+            ...taskList, { text: inputText, completed: false, id: uniqid(), edit: false }
         ])
         setInputText('')
     }
