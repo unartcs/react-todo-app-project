@@ -60,16 +60,11 @@
   }
   .filter-todo {
     padding: 1rem;
-    min-width: 15vw;
-    width: 20vw;
   }
   .todo li {
     flex: 1;
   }
-  .todo-input {
-    min-width: 20vw;
-    width: 50vw;
-  }
+  
   .trash-btn,
   .complete-btn,
   .edit-btn {
